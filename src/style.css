@@ -7,6 +7,18 @@
   --foreground: #171717;
   --myDarkBlue: #154163;
   --myLightBlue: #56A2E8;
+  --myDarkRed: #5B2C2C;
+  --myLightRed: #FF8383;
+  --myDarkGreen: #043B0C;
+  --myLightGreen: #3A994C;
+}
+
+/* Excalidraw "Virgil" font */
+@font-face {
+  font-family: 'Virgil';
+  src: url('./assets/fonts/Virgil.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -19,7 +31,7 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Virgil', Arial, Helvetica, sans-serif;
 }
 
 @layer utilities {
