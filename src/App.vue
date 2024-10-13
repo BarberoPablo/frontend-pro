@@ -1,22 +1,14 @@
-<script setup lang="ts">
-const person = { name: "Pablo" };
-</script>
-
 <template>
-  <div>Hello world</div>
+  <div class="flex min-h-screen">
+    <Navbar />
+    <div class="p-5 w-full max-h-screen">
+      <router-view />
+    </div>
+  </div>
 </template>
 
-<style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
-}
-</style>
+<script setup lang="ts">
+import Navbar from "./components/Navbar.vue";
+</script>
+
+<style scoped></style>

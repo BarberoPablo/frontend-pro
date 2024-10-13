@@ -9,10 +9,22 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.5.10"
+    "@types/vue": "^2.0.0",
+    "@vitejs/plugin-vue-jsx": "^4.0.1",
+    "@vue/compiler-sfc": "^3.5.12",
+    "@vue/runtime-dom": "^3.5.12",
+    "pinia": "^2.2.4",
+    "pinia-plugin-persistedstate": "^4.1.1",
+    "vue": "^3.5.12",
+    "vue-router": "^4.4.5"
   },
   "devDependencies": {
+    "@types/node": "^22.7.5",
+    "@types/react": "^18.3.11",
     "@vitejs/plugin-vue": "^5.1.4",
+    "@vue/babel-plugin-jsx": "^1.2.5",
+    "@vue/runtime-core": "^3.5.12",
+    "@vue/tsconfig": "^0.5.1",
     "autoprefixer": "^10.4.20",
     "postcss": "^8.4.47",
     "tailwindcss": "^3.4.13",
